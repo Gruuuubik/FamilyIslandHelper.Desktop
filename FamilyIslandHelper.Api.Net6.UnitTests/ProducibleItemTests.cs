@@ -1,11 +1,9 @@
 ﻿using FamilyIslandHelper.Api.Models.Abstract;
 using FamilyIslandHelper.Api.Models.Buildings;
 using FamilyIslandHelper.Api.Models.Items;
-using System;
-using System.Collections.Generic;
 using Xunit;
 
-namespace FamilyIslandHelper.Api.UnitTests
+namespace FamilyIslandHelper.Api.Net6.UnitTests
 {
 	public class ProducibleItemTests
 	{
