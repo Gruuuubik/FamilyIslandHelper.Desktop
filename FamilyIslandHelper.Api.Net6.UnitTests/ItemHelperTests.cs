@@ -29,7 +29,7 @@ namespace FamilyIslandHelper.Api.Net6.UnitTests
 
 		[Theory]
 		[InlineData("Cone123", null)]
-		public void When_FindItemByNameForNotExistedItem_Then_ReturnNull(string itemName, Item expectedItem)
+		public void When_FindItemByNameForNotExistedItem_Then_ReturnNull(string itemName, Item? expectedItem)
 		{
 			var actualItem = ItemHelper.FindItemByName(itemName);
 
