@@ -20,6 +20,7 @@ Windows Application:
 |--------------|------------------------------------------|
 | main         | [![Main](https://github.com/Gruuuubik/FamilyIslandHelper/actions/workflows/desktop.yml/badge.svg?branch=main)](https://github.com/Gruuuubik/FamilyIslandHelper/actions/workflows/desktop.yml) |
 | web          | [![Web](https://github.com/Gruuuubik/FamilyIslandHelper/actions/workflows/web.yml/badge.svg?branch=web)](https://github.com/Gruuuubik/FamilyIslandHelper/actions/workflows/web.yml) |
+| api         | [![API](https://github.com/Gruuuubik/FamilyIslandHelper/actions/workflows/api.yml/badge.svg?branch=api)](https://github.com/Gruuuubik/FamilyIslandHelper/actions/workflows/api.yml) |
 
 
 ## Deployed web version
