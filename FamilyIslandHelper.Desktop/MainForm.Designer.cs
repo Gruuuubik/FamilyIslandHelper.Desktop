@@ -31,14 +31,12 @@
 			this.cb_showListOfComponents = new System.Windows.Forms.CheckBox();
 			this.splitContainer_main = new System.Windows.Forms.SplitContainer();
 			this.pnl_Buildings1 = new System.Windows.Forms.Panel();
-			this.lbl_Ratio1 = new System.Windows.Forms.Label();
 			this.num_Item1Count = new System.Windows.Forms.NumericUpDown();
 			this.tv_Components1 = new System.Windows.Forms.TreeView();
 			this.pnl_Items1 = new System.Windows.Forms.Panel();
 			this.splitContainer_second = new System.Windows.Forms.SplitContainer();
 			this.lb_Components = new System.Windows.Forms.ListBox();
 			this.pnl_Buildings2 = new System.Windows.Forms.Panel();
-			this.lbl_Ratio2 = new System.Windows.Forms.Label();
 			this.num_Item2Count = new System.Windows.Forms.NumericUpDown();
 			this.tv_Components2 = new System.Windows.Forms.TreeView();
 			this.pnl_Items2 = new System.Windows.Forms.Panel();
@@ -80,7 +78,6 @@
 			// splitContainer_main.Panel1
 			// 
 			this.splitContainer_main.Panel1.Controls.Add(this.pnl_Buildings1);
-			this.splitContainer_main.Panel1.Controls.Add(this.lbl_Ratio1);
 			this.splitContainer_main.Panel1.Controls.Add(this.num_Item1Count);
 			this.splitContainer_main.Panel1.Controls.Add(this.tv_Components1);
 			this.splitContainer_main.Panel1.Controls.Add(this.pnl_Items1);
@@ -104,15 +101,6 @@
 			this.pnl_Buildings1.Name = "pnl_Buildings1";
 			this.pnl_Buildings1.Size = new System.Drawing.Size(443, 85);
 			this.pnl_Buildings1.TabIndex = 11;
-			// 
-			// lbl_Ratio1
-			// 
-			this.lbl_Ratio1.AutoSize = true;
-			this.lbl_Ratio1.Location = new System.Drawing.Point(20, 20);
-			this.lbl_Ratio1.Name = "lbl_Ratio1";
-			this.lbl_Ratio1.Size = new System.Drawing.Size(80, 20);
-			this.lbl_Ratio1.TabIndex = 13;
-			this.lbl_Ratio1.Text = "Ratio: 1.5";
 			// 
 			// num_Item1Count
 			// 
@@ -175,7 +163,6 @@
 			// splitContainer_second.Panel2
 			// 
 			this.splitContainer_second.Panel2.Controls.Add(this.pnl_Buildings2);
-			this.splitContainer_second.Panel2.Controls.Add(this.lbl_Ratio2);
 			this.splitContainer_second.Panel2.Controls.Add(this.num_Item2Count);
 			this.splitContainer_second.Panel2.Controls.Add(this.tv_Components2);
 			this.splitContainer_second.Panel2.Controls.Add(this.pnl_Items2);
@@ -204,17 +191,8 @@
 			this.pnl_Buildings2.AutoScroll = true;
 			this.pnl_Buildings2.Location = new System.Drawing.Point(15, 55);
 			this.pnl_Buildings2.Name = "pnl_Buildings2";
-			this.pnl_Buildings2.Size = new System.Drawing.Size(431, 85);
+			this.pnl_Buildings2.Size = new System.Drawing.Size(425, 85);
 			this.pnl_Buildings2.TabIndex = 15;
-			// 
-			// lbl_Ratio2
-			// 
-			this.lbl_Ratio2.AutoSize = true;
-			this.lbl_Ratio2.Location = new System.Drawing.Point(20, 20);
-			this.lbl_Ratio2.Name = "lbl_Ratio2";
-			this.lbl_Ratio2.Size = new System.Drawing.Size(80, 20);
-			this.lbl_Ratio2.TabIndex = 14;
-			this.lbl_Ratio2.Text = "Ratio: 1.5";
 			// 
 			// num_Item2Count
 			// 
@@ -248,7 +226,7 @@
 			this.tv_Components2.ItemHeight = 30;
 			this.tv_Components2.Location = new System.Drawing.Point(15, 250);
 			this.tv_Components2.Name = "tv_Components2";
-			this.tv_Components2.Size = new System.Drawing.Size(413, 394);
+			this.tv_Components2.Size = new System.Drawing.Size(407, 394);
 			this.tv_Components2.TabIndex = 12;
 			this.tv_Components2.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tv_Components_AfterSelect);
 			// 
@@ -259,7 +237,7 @@
 			this.pnl_Items2.AutoScroll = true;
 			this.pnl_Items2.Location = new System.Drawing.Point(15, 150);
 			this.pnl_Items2.Name = "pnl_Items2";
-			this.pnl_Items2.Size = new System.Drawing.Size(413, 90);
+			this.pnl_Items2.Size = new System.Drawing.Size(407, 90);
 			this.pnl_Items2.TabIndex = 11;
 			// 
 			// rb_v1
@@ -311,14 +289,12 @@
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "FamilyIslandHelper";
 			this.splitContainer_main.Panel1.ResumeLayout(false);
-			this.splitContainer_main.Panel1.PerformLayout();
 			this.splitContainer_main.Panel2.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer_main)).EndInit();
 			this.splitContainer_main.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.num_Item1Count)).EndInit();
 			this.splitContainer_second.Panel1.ResumeLayout(false);
 			this.splitContainer_second.Panel2.ResumeLayout(false);
-			this.splitContainer_second.Panel2.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer_second)).EndInit();
 			this.splitContainer_second.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.num_Item2Count)).EndInit();
@@ -330,13 +306,11 @@
 		#endregion
 		private System.Windows.Forms.CheckBox cb_showListOfComponents;
 		private System.Windows.Forms.SplitContainer splitContainer_main;
-		private System.Windows.Forms.Label lbl_Ratio1;
 		private System.Windows.Forms.NumericUpDown num_Item1Count;
 		private System.Windows.Forms.TreeView tv_Components1;
 		private System.Windows.Forms.Panel pnl_Items1;
 		private System.Windows.Forms.SplitContainer splitContainer_second;
 		private System.Windows.Forms.ListBox lb_Components;
-		private System.Windows.Forms.Label lbl_Ratio2;
 		private System.Windows.Forms.NumericUpDown num_Item2Count;
 		private System.Windows.Forms.TreeView tv_Components2;
 		private System.Windows.Forms.Panel pnl_Items2;

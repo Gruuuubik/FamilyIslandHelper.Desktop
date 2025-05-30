@@ -182,19 +182,16 @@ namespace FamilyIslandHelper.Desktop
 		private void ShowListOfItemsForBuilding(string buildingName, int panelNumber)
 		{
 			var itemsNames = buildingHelper.GetItemsOfBuilding(buildingName);
-			var ratio = buildingHelper.CreateBuilding(buildingName).ProduceRatio.ToString();
 
 			if (panelNumber == 1)
 			{
 				tv_Components1.Nodes.Clear();
-				lbl_Ratio1.Text = "Ratio: " + ratio;
 
 				InitItemsPanels(buildingName, itemsNames, panelNumber, pnl_Items1);
 			}
 			else if (panelNumber == 2)
 			{
 				tv_Components2.Nodes.Clear();
-				lbl_Ratio2.Text = "Ratio: " + ratio;
 
 				InitItemsPanels(buildingName, itemsNames, panelNumber, pnl_Items2);
 			}
@@ -236,7 +233,7 @@ namespace FamilyIslandHelper.Desktop
 				panels[i] = panel;
 			}
 
-			panels = panels.OrderBy(p => GetItem(p).LevelWhenAppears).ThenBy(p => GetItem(p).TotalProduceTime).ToArray();
+			panels = panels.OrderBy(p => GetItem(p).LevelWhenAppears).ToArray();
 
 			for (var i = 0; i < panels.Length; i++)
 			{
